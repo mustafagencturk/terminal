@@ -31,33 +31,7 @@ const About = () => {
                   and raise awareness about the climate crisis.
                   </p>
                   <p>
-                    The artwork has been hand-drawned by Robert Green in the
-                    traditional anime style and composited by Layla Efiyo.
                   </p>
-                </div>
-                <div className="buttons">
-                  <a
-                    href="https://opensea.io/"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="neoh_fn_button"
-                  >
-                    <span className="icon">
-                      <img src="svg/opensea.svg" alt="" className="fn__svg" />
-                    </span>
-                    <span className="text">OpenSea</span>
-                  </a>
-                  <a
-                    href="https://discord.com/"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="neoh_fn_button"
-                  >
-                    <span className="icon">
-                      <img src="svg/discord.svg" alt="" className="fn__svg" />
-                    </span>
-                    <span className="text">Discord</span>
-                  </a>
                 </div>
               </div>
             </div>

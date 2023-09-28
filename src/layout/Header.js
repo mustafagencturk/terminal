@@ -45,9 +45,6 @@ const Header = () => {
                 </ul>
               </li>
               <li className="menu-item">
-                <Link href="/about">About</Link>
-              </li>
-              <li className="menu-item">
                 <Link href="/blog">Media</Link>
               </li>
               <li className="menu-item">

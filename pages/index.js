@@ -1,8 +1,5 @@
 import AboutComponent from "../src/components/AboutComponent";
 import BlogComponent from "../src/components/BlogComponent";
-import Drops from "../src/components/Drops";
-import ServicesComponent from "../src/components/ServicesComponent";
-import WhyChooseUsComponent from "../src/components/WhyChooseUsComponent";
 import Layout from "../src/layout/Layout";
 
 const Index = () => {
@@ -44,11 +41,8 @@ const Index = () => {
       <AboutComponent />
       {/* !About Section */}
       {/* Services Section */}
-      <ServicesComponent />
       {/* !Services Section */}
-      <Drops />
       {/* Investor Section */}
-      <WhyChooseUsComponent />
       {/* !Investor Section */}
       {/* Blog Section */}
       <BlogComponent />
