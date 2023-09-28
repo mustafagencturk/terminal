@@ -66,7 +66,7 @@ const AboutComponent = () => {
               </p>
             </div>
             <div className="buttons">
-              <Link href="/about">
+              <Link href="/#">
                 <a className="neoh_fn_button only_text">
                   <span className="text">More About US</span>
                 </a>

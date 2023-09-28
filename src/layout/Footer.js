@@ -9,7 +9,7 @@ const Footer = () => {
             <div className="ft_in">
               <div className="desc">
                 <div className="img">
-                  <img src="img/footer-logo.png" alt="" />
+                  <img src="img/footer-log.jpg" alt="" />
                 </div>
                 <h3 className="fn_title">Join Now For Early Access</h3>
                 <p className="fn_desc">
@@ -44,22 +44,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <a href="#">
-                      <i className="fn-icon-facebook" />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
                       <i className="fn-icon-instagram" />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <i className="fn-icon-pinterest" />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <i className="fn-icon-behance" />
                     </a>
                   </li>
                 </ul>
