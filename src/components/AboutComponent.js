@@ -28,7 +28,7 @@ const AboutComponent = () => {
             </div>
             <div className="buttons">
               <a
-                href="https://discord.com/"
+                href="https://discord.gg/qrUEgrSrv"
                 target="_blank"
                 rel="noreferrer"
                 className="neoh_fn_button"
@@ -45,7 +45,7 @@ const AboutComponent = () => {
         {/* About Item #2 */}
         <div className="neoh_fn_about_item reverse">
           <div className="img_item">
-            <img src="img/hero/" alt="" />
+            <img src="img/hero/termnal-veri-2.jpg" alt="" />
           </div>
           <div className="content_item">
             <div className="neoh_fn_title" data-align="left">
