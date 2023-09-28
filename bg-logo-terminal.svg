@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <clipPath id="clip-Web_1920_1">
+      <rect width="1920" height="1080"/>
+    </clipPath>
+  </defs>
+  <g id="Web_1920_1" data-name="Web 1920 – 1" clip-path="url(#clip-Web_1920_1)">
+    <rect width="1920" height="1080"/>
+    <g id="Group_2" data-name="Group 2">
+      <text id="_" transform="translate(960 796)" fill="#fff" font-size="1000" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">_</tspan></text>
+      <g id="Group_1" data-name="Group 1" transform="translate(0 -55)">
+        <text id="_2" data-name="&gt;" transform="translate(501 873)" fill="#fff" font-size="1000" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">&gt;</tspan></text>
+        <text id="_3" data-name="_" transform="translate(960 829)" fill="#fff" font-size="1000" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">_</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

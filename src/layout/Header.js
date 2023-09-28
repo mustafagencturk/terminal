@@ -48,7 +48,7 @@ const Header = () => {
                 <Link href="/about">About</Link>
               </li>
               <li className="menu-item">
-                <Link href="/blog">Blog</Link>
+                <Link href="/blog">Media</Link>
               </li>
               <li className="menu-item">
                 <Link href="/contact">Contact</Link>
@@ -82,12 +82,12 @@ const Header = () => {
         <div className={`nav_footer ${toggle ? "ready" : ""}`}>
           <div className="nf_left">
             <p>
-              Copyright 2022- Designed &amp; Developed by{" "}
+              Copyright 2023 - Designed &amp; Developed by{" Termiverce  "}
               <a
-                href="https://themeforest.net/user/codeefly/portfolio"
+                href="#"
                 target="_blank" rel="noreferrer"
               >
-                Codeefly
+                
               </a>
             </p>
           </div>
@@ -95,23 +95,23 @@ const Header = () => {
             <div className="neoh_fn_social_list">
               <ul>
                 <li>
-                  <a href="#">
+                  <a href="twitter.com/terminaldao">
                     <i className="fn-icon-twitter" />
                   </a>
                 </li>
                 <li>
-                  <a href="#">
+                  <a href="">
                     <i className="fn-icon-facebook" />
                   </a>
                 </li>
                 <li>
-                  <a href="#">
+                  <a href="instagram.com/terminaldao">
                     <i className="fn-icon-instagram" />
                   </a>
                 </li>
                 <li>
-                  <a href="#">
-                    <i className="fn-icon-pinterest" />
+                  <a href="linkedin.com/terminaldao">
+                    <i className="fn-icon-linkedin" />
                   </a>
                 </li>
                 <li>
