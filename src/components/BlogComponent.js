@@ -18,21 +18,21 @@ const BlogComponent = () => {
               <div className="item">
                 <img src="img/blog/1.jpg" alt="" className="moving_img" />
                 <p className="fn_date">
-                  <span>June 01, 2022</span>
+                  <span>October 15, 2023</span>
                 </p>
                 <h3 className="fn_title">
-                  <Link href="/blog-single">
-                    Neohs NFT Goes Public In Nod To Crypto Adoption
+                  <Link href="/#">
+                      Which Future?
                   </Link>
                 </h3>
                 <p className="fn_desc">
-                  Morbi non dignissim erat, a blandit felis nec lorem vel orci
-                  varius congue ut vitae est.
+                Welcome to 'Which Future,' a compelling podcast series hosted by Begum Bitir from TerminalDAO. 
+
                 </p>
                 <p className="fn_read">
-                  <Link href="/blog-single">
+                  <Link href="#">
                     <a className="neoh_fn_button only_text">
-                      <span className="text">Read More</span>
+                      <span className="text">Listen on Spotify</span>
                     </a>
                   </Link>
                 </p>
@@ -42,45 +42,20 @@ const BlogComponent = () => {
               <div className="item">
                 <img src="img/blog/2.jpg" alt="" className="moving_img" />
                 <p className="fn_date">
-                  <span>May 25, 2022</span>
+                  <span>October 25, 2023</span>
                 </p>
                 <h3 className="fn_title">
-                  <Link href="/blog-single">
-                    Bankman-Fried Would Like to Talk With Musk About Twitter
+                  <Link href="#">
+                    Which Tech?
                   </Link>
                 </h3>
                 <p className="fn_desc">
-                  Morbi non dignissim erat, a blandit felis nec lorem vel orci
-                  varius congue ut vitae est.
+                Disruptive and new technologies podcast series will be hosted by Aybars Dorman
                 </p>
                 <p className="fn_read">
-                  <Link href="/blog-single">
+                  <Link href="#">
                     <a className="neoh_fn_button only_text">
-                      <span className="text">Read More</span>
-                    </a>
-                  </Link>
-                </p>
-              </div>
-            </li>
-            <li>
-              <div className="item">
-                <img src="img/blog/3.jpg" alt="" className="moving_img" />
-                <p className="fn_date">
-                  <span>May 13, 2022</span>
-                </p>
-                <h3 className="fn_title">
-                  <Link href="/blog-single">
-                    Crypto-Focused Silvergate Jumps on Blowout Earnings Report
-                  </Link>
-                </h3>
-                <p className="fn_desc">
-                  Morbi non dignissim erat, a blandit felis nec lorem vel orci
-                  varius congue ut vitae est.
-                </p>
-                <p className="fn_read">
-                  <Link href="/blog-single">
-                    <a className="neoh_fn_button only_text">
-                      <span className="text">Read More</span>
+                      <span className="text">Listen on Spotify</span>
                     </a>
                   </Link>
                 </p>

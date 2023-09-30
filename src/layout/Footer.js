@@ -13,9 +13,6 @@ const Footer = () => {
                 </div>
                 <h3 className="fn_title">Join Now For Early Access</h3>
                 <p className="fn_desc">
-                  Morbi non dignissim erat, a blandit felis nec lorem vel orci
-                  varius congue ut vitae est. Nam quis tempus nisl. Fusce
-                  posuere nibh a mi molestie, sit amet ornare
                 </p>
               </div>
               <div className="subscribe_form">
