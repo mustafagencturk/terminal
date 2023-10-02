@@ -59,6 +59,7 @@ const Footer = () => {
                   Copyright {new Date().getFullYear()} - Designed &amp;
                   Developed by{" TerminalDAO "}
                   <a
+                    // eslint-disable-next-line react/no-unknown-property
                     Termiverce
                   >
                     

@@ -4,7 +4,7 @@ import Layout from "../src/layout/Layout";
 
 const Index = () => {
   return (
-    <Layout pageName={"Home Static"}>
+    <Layout pageName={"TerminalDAO"}>
       {/* Hero Header */}
       <div className="neoh_fn_hero">
         {/* Overlay (of hero header) */}
