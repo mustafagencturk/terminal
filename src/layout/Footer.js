@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
 const Footer = () => {
   return (
@@ -9,7 +10,7 @@ const Footer = () => {
             <div className="ft_in">
               <div className="desc">
                 <div className="img">
-                  <img src="img/footer-log.jpg" alt="" />
+                  <img src=".img/footer-log.jpg" alt="" />
                 </div>
                 <h3 className="fn_title">Join Now For Early Access</h3>
                 <p className="fn_desc">

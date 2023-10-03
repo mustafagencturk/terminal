@@ -26,7 +26,7 @@ const BlogComponent = () => {
                   </Link>
                 </h3>
                 <p className="fn_desc">
-                Welcome to 'Which Future,' a compelling podcast series hosted by Begum Bitir from TerminalDAO. 
+                Welcome to Which Future, a compelling podcast series hosted by Begum Bitir from TerminalDAO. 
 
                 </p>
                 <p className="fn_read">
