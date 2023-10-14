@@ -31,7 +31,7 @@ const ServicesComponent = () => {
                   <span>01</span>
                 </div>
                 <div className="item_content">
-                  <h3 className="fn_title">Termiverce</h3>
+                  <h3 className="fn_title">Huge Collection</h3>
                   <p className="fn_desc fn_animated_text">
                     A collection of 5,000 unique NEOHs built to go beyond the
                     digital space that will unlock numerous benefits for our

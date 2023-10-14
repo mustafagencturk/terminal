@@ -13,7 +13,7 @@ const Timeline = () => {
     <Fragment>
       {/* Main Title */}
       <div className="neoh_fn_title">
-        <h3 className="fn_title">TerminalDAO’s Roadmap</h3>
+        <h3 className="fn_title">Neoh’s Roadmap</h3>
         <div className="line">
           <span />
         </div>

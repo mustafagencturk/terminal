@@ -1,4 +1,3 @@
-/* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
 const Footer = () => {
   return (
@@ -10,10 +9,13 @@ const Footer = () => {
             <div className="ft_in">
               <div className="desc">
                 <div className="img">
-                  <img src=".img/footer-log.jpg" alt="" />
+                  <img src="img/footer-logo.png" alt="" />
                 </div>
                 <h3 className="fn_title">Join Now For Early Access</h3>
                 <p className="fn_desc">
+                  Morbi non dignissim erat, a blandit felis nec lorem vel orci
+                  varius congue ut vitae est. Nam quis tempus nisl. Fusce
+                  posuere nibh a mi molestie, sit amet ornare
                 </p>
               </div>
               <div className="subscribe_form">
@@ -42,7 +44,22 @@ const Footer = () => {
                   </li>
                   <li>
                     <a href="#">
+                      <i className="fn-icon-facebook" />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
                       <i className="fn-icon-instagram" />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i className="fn-icon-pinterest" />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i className="fn-icon-behance" />
                     </a>
                   </li>
                 </ul>
@@ -58,12 +75,13 @@ const Footer = () => {
               <div className="fb_left">
                 <p>
                   Copyright {new Date().getFullYear()} - Designed &amp;
-                  Developed by{" TerminalDAO "}
+                  Developed by{" "}
                   <a
-                    // eslint-disable-next-line react/no-unknown-property
-                    Termiverce
+                    href="https://themeforest.net/user/codeefly/portfolio"
+                    target="_blank"
+                    rel="noreferrer"
                   >
-                    
+                    Codeefly
                   </a>
                 </p>
               </div>

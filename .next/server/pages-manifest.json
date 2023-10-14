@@ -1,5 +1,17 @@
 {
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
-  "/_document": "pages/_document.js"
+  "/api/hello": "pages/api/hello.js",
+  "/about": "pages/about.html",
+  "/blog-single": "pages/blog-single.html",
+  "/blog": "pages/blog.html",
+  "/contact": "pages/contact.html",
+  "/half-kenburns": "pages/half-kenburns.html",
+  "/half-slider": "pages/half-slider.html",
+  "/": "pages/index.html",
+  "/kenburns": "pages/kenburns.html",
+  "/roadmap": "pages/roadmap.html",
+  "/roadmap-single": "pages/roadmap-single.html",
+  "/_document": "pages/_document.js",
+  "/404": "pages/404.html"
 }

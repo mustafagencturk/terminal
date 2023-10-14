@@ -1,154 +1,95 @@
 import Link from "next/link";
+import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
+import { Dialog, Transition } from '@headlessui/react'
 import { Fragment, useState } from "react";
 
-const Header = () => {
-  const [toggle, setToggle] = useState(false);
-  const [homeToggle, setHomeToggle] = useState(false);
+const navigation = [
+  { name: 'Home', href: '#' },
+  { name: 'Media', href: '#' },
+  { name: 'About Us', href: '#' },
+  { name: 'Contact', href: '#' },
+]
+
+export default function Example() {
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+
   return (
-    <Fragment>
-      {/* Right Navigation */}
-      <div
-        className={`nav_overlay ${toggle ? "go" : ""}`}
-        onClick={() => setToggle(false)}
-      />
-      <div className={`neoh_fn_nav ${toggle ? "go" : ""}`}>
-        <div className="trigger is-active">
-          <div className="trigger_in" onClick={() => setToggle(false)}>
-            <span className="text">Close</span>
-            <span className="hamb">
-              <span className="hamb_a" />
-              <span className="hamb_b" />
-              <span className="hamb_c" />
-            </span>
-          </div>
-        </div>
-        <div className="nav_content">
-          <div className="nav_menu">
-            <ul>
-              <li className="menu-item menu-item-has-children">
-                <a
-                  href="#"
-                  onClick={(e) => {
-                    e.preventDefault();
-                    setHomeToggle(!homeToggle);
-                  }}
-                >
-                  Home
-                </a>
-                <ul
-                  className="sub-menu"
-                  style={{ display: homeToggle ? "block" : "none" }}
-                >
-                  <li>
-                    <Link href="/">Home</Link>
-                  </li>
-                </ul>
-              </li>
-              <li className="menu-item">
-                <Link href="/blog">Media</Link>
-              </li>
-              <li className="menu-item">
-                <Link href="/contact">Contact</Link>
-              </li>
-            </ul>
-          </div>
-          <div className="nav_buttons">
-            <a
-              href="https://opensea.io/"
-              className="neoh_fn_button"
-              target="_blank" rel="noreferrer"
-            >
-              <span className="icon">
-                <img src="svg/opensea.svg" alt="" className="fn__svg" />
-              </span>
-              <span className="text">OpenSea</span>
-            </a>
-            <a
-              href="https://discord.gg/qrUEgrSrv"
-              className="neoh_fn_button"
-              target="_blank" rel="noreferrer"
-            >
-              <span className="icon">
-                <img src="svg/discord.svg" alt="" className="fn__svg" />
-              </span>
-              <span className="text">Discord</span>
+    <div className="bg-black">
+      <header className="absolute inset-x-0 top-0 z-50">
+        <nav className="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
+          <div className="flex lg:flex-1">
+            <a href="#" className="-m-1.5 p-1.5">
+              <span className="sr-only">terminal</span>
+              <img
+                className="h-8 w-auto"
+                src= "img/hero/bg-logo-terminal.svg"
+                alt=""
+              />
             </a>
           </div>
-        </div>
-        {/* Nav Footer */}
-        <div className={`nav_footer ${toggle ? "ready" : ""}`}>
-          <div className="nf_left">
-            <p>
-              Copyright 2023 - Designed &amp; Developed by{" Termiverce  "}
-              <a
-                href="#"
-                target="_blank" rel="noreferrer"
-              >
-                
+          <div className="flex lg:hidden">
+            <button
+              type="button"
+              className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-white-700"
+              onClick={() => setMobileMenuOpen(true)}
+            >
+              <span className="sr-only">Open main menu</span>
+              <Bars3Icon className="h-6 w-6" aria-hidden="true" />
+            </button>
+          </div>
+          <div className="hidden lg:flex lg:gap-x-12">
+            {navigation.map((item) => (
+              <a key={item.name} href={item.href} className="text-sm font-semibold leading-6 text-white-900">
+                {item.name}
               </a>
-            </p>
+            ))}
           </div>
-          <div className="nf_right">
-            <div className="neoh_fn_social_list">
-              <ul>
-                <li>
-                  <a href="twitter.com/terminaldao">
-                    <i className="fn-icon-twitter" />
-                  </a>
-                </li>
-                <li>
-                  <a href="">
-                    <i className="fn-icon-facebook" />
-                  </a>
-                </li>
-                <li>
-                  <a href="instagram.com/terminaldao">
-                    <i className="fn-icon-instagram" />
-                  </a>
-                </li>
-                <li>
-                  <a href="linkedin.com/terminaldao">
-                    <i className="fn-icon-linkedin" />
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <i className="fn-icon-behance" />
-                  </a>
-                </li>
-              </ul>
-            </div>
+          <div className="hidden lg:flex lg:flex-1 lg:justify-end">
+            <a href="#" className="text-sm font-semibold leading-6 text-white-900">
+            </a>
           </div>
-        </div>
-        {/* !Nav Footer */}
-      </div>
-      {/* !Right Navigation */}
-      {/* Header */}
-      <header className="neoh_fn_header">
-        <div className="container">
-          <div className="header_in">
-            <div className="logo">
-              <Link href="/">
-                <a>
-                  <img src="img/logo.png" alt="" />
-                </a>
-              </Link>
+        </nav>
+        <Dialog as="div" className="lg:hidden" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
+          <div className="fixed inset-0 z-50" />
+          <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-black px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-white-900/10">
+            <div className="flex items-center justify-between">
+              <a href="#" className="-m-1.5 p-1.5">
+                <span className="sr-only">Your Company</span>
+                <img
+                  className="h-8 w-auto"
+                  src="img/hero/bg-logo-terminal.svg"
+                  alt=""
+                />
+              </a>
+              <button
+                type="button"
+                className="-m-2.5 rounded-md p-2.5 text-white-700"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                <span className="sr-only">Close menu</span>
+                <XMarkIcon className="h-6 w-6" aria-hidden="true" />
+              </button>
             </div>
-            <div className="trigger">
-              <div className="trigger_in" onClick={() => setToggle(!toggle)}>
-                <span className="text">Menu</span>
-                <span className="hamb">
-                  <span className="hamb_a" />
-                  <span className="hamb_b" />
-                  <span className="hamb_c" />
-                </span>
+            <div className="mt-6 flow-root">
+              <div className="-my-6 divide-y divide-gray-500/10">
+                <div className="space-y-2 py-6">
+                  {navigation.map((item) => (
+                    <a
+                      key={item.name}
+                      href={item.href}
+                      className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white-900 hover:bg-gray-50"
+                    >
+                      {item.name}
+                    </a>
+                  ))}
+                </div>
+                <div className="py-6">
+                </div>
               </div>
             </div>
-          </div>
-        </div>
+          </Dialog.Panel>
+        </Dialog>
       </header>
-      {/* !Header */}
-    </Fragment>
-  );
-};
-export default Header;
+    </div>
+  )
+}

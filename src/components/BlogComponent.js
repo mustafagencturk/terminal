@@ -21,18 +21,17 @@ const BlogComponent = () => {
                   <span>October 15, 2023</span>
                 </p>
                 <h3 className="fn_title">
-                  <Link href="/#">
-                      Which Future?
+                  <Link href="/blog-single">
+                    Which Future?
                   </Link>
                 </h3>
                 <p className="fn_desc">
-                Welcome to Which Future, a compelling podcast series hosted by Begum Bitir from TerminalDAO. 
-
+                  Welcome to Which Future, a compelling podcast series hosted by Begum Bitir from TerminalDAO.
                 </p>
                 <p className="fn_read">
-                  <Link href="#">
+                  <Link href="/blog-single">
                     <a className="neoh_fn_button only_text">
-                      <span className="text">Listen on Spotify</span>
+                      <span className="text">Lısten on Spotıfy</span>
                     </a>
                   </Link>
                 </p>
@@ -45,17 +44,41 @@ const BlogComponent = () => {
                   <span>October 25, 2023</span>
                 </p>
                 <h3 className="fn_title">
-                  <Link href="#">
+                  <Link href="/blog-single">
                     Which Tech?
                   </Link>
                 </h3>
                 <p className="fn_desc">
-                Disruptive and new technologies podcast series will be hosted by Aybars Dorman
+                  Disruptive and new technologies podcast series will be hosted by Aybars Dorman. 
                 </p>
                 <p className="fn_read">
-                  <Link href="#">
+                  <Link href="/blog-single">
                     <a className="neoh_fn_button only_text">
-                      <span className="text">Listen on Spotify</span>
+                      <span className="text">Lısten on Spotıfy</span>
+                    </a>
+                  </Link>
+                </p>
+              </div>
+            </li>
+            <li>
+              <div className="item">
+                <img src="img/blog/3.jpg" alt="" className="moving_img" />
+                <p className="fn_date">
+                  <span>May 13, 2022</span>
+                </p>
+                <h3 className="fn_title">
+                  <Link href="/blog-single">
+                    Crypto-Focused Silvergate Jumps on Blowout Earnings Report
+                  </Link>
+                </h3>
+                <p className="fn_desc">
+                  Morbi non dignissim erat, a blandit felis nec lorem vel orci
+                  varius congue ut vitae est.
+                </p>
+                <p className="fn_read">
+                  <Link href="/blog-single">
+                    <a className="neoh_fn_button only_text">
+                      <span className="text">Read More</span>
                     </a>
                   </Link>
                 </p>
