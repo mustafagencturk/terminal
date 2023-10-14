@@ -16,7 +16,7 @@ const WhyChooseUsComponent = () => {
       <div className="container">
         {/* Main Title */}
         <div className="neoh_fn_title">
-          <h3 className="fn_title">Neohs Investors</h3>
+          <h3 className="fn_title">Partners</h3>
           <div className="line">
             <span />
           </div>

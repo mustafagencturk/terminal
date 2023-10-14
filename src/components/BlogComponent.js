@@ -18,20 +18,21 @@ const BlogComponent = () => {
               <div className="item">
                 <img src="img/blog/1.jpg" alt="" className="moving_img" />
                 <p className="fn_date">
-                  <span>October 15, 2023</span>
+                  <span>June 01, 2022</span>
                 </p>
                 <h3 className="fn_title">
                   <Link href="/blog-single">
-                    Which Future?
+                    Neohs NFT Goes Public In Nod To Crypto Adoption
                   </Link>
                 </h3>
                 <p className="fn_desc">
-                  Welcome to Which Future, a compelling podcast series hosted by Begum Bitir from TerminalDAO.
+                  Morbi non dignissim erat, a blandit felis nec lorem vel orci
+                  varius congue ut vitae est.
                 </p>
                 <p className="fn_read">
                   <Link href="/blog-single">
                     <a className="neoh_fn_button only_text">
-                      <span className="text">Lısten on Spotıfy</span>
+                      <span className="text">Read More</span>
                     </a>
                   </Link>
                 </p>
@@ -41,20 +42,21 @@ const BlogComponent = () => {
               <div className="item">
                 <img src="img/blog/2.jpg" alt="" className="moving_img" />
                 <p className="fn_date">
-                  <span>October 25, 2023</span>
+                  <span>May 25, 2022</span>
                 </p>
                 <h3 className="fn_title">
                   <Link href="/blog-single">
-                    Which Tech?
+                    Bankman-Fried Would Like to Talk With Musk About Twitter
                   </Link>
                 </h3>
                 <p className="fn_desc">
-                  Disruptive and new technologies podcast series will be hosted by Aybars Dorman. 
+                  Morbi non dignissim erat, a blandit felis nec lorem vel orci
+                  varius congue ut vitae est.
                 </p>
                 <p className="fn_read">
                   <Link href="/blog-single">
                     <a className="neoh_fn_button only_text">
-                      <span className="text">Lısten on Spotıfy</span>
+                      <span className="text">Read More</span>
                     </a>
                   </Link>
                 </p>

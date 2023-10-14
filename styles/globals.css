@@ -1,7 +1,3 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 a {
   cursor: pointer;
 }
@@ -15,4 +11,3 @@ li.d-none {
   display: none;
 }
 @import "swiper/css";
-

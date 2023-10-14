@@ -13,24 +13,30 @@ const Index = () => {
         {/* Overlay (of hero header) */}
         <div className="bg_overlay">
           {/* Overlay Color */}
-          <div className="bg_color" />
           {/* !Overlay Color */}
+          {/* Overlay Image */}
+          <div className="bg_image" data-bg-img="img/hero/bg-logo-terminal.svg" />
           {/* !Overlay Image */}
         </div>
         {/* Overlay (of hero header) */}
         <div className="hero_content">
           <div className="container">
             <div className="content">
-            <div className="bg_image" data-bg-img="img/hero/bg-logo-terminal.svg"/>
+              <h1 className="fn_title" title="Terminal">
+                
+              </h1>
               <p className="fn_desc fn_animated_text">
-                  All Member with, Together we are strong than ever.
-                </p>
+                
+              </p>
             </div>
           </div>
           <a
             href="#about"
             className="neoh_fn_down magic-hover magic-hover__square"
           >
+            <span className="text">Scroll Down</span>
+            <span className="icon">
+            </span>
           </a>
         </div>
       </div>
@@ -47,7 +53,6 @@ const Index = () => {
       {/* !Investor Section */}
       {/* Blog Section */}
       <BlogComponent />
-       <navbar />
     </Layout>
   );
 };

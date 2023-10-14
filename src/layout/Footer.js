@@ -75,13 +75,11 @@ const Footer = () => {
               <div className="fb_left">
                 <p>
                   Copyright {new Date().getFullYear()} - Designed &amp;
-                  Developed by{" "}
+                  Developed by{" TerminalDAO "}
                   <a
-                    href="https://themeforest.net/user/codeefly/portfolio"
-                    target="_blank"
-                    rel="noreferrer"
+                    Termiverce
                   >
-                    Codeefly
+                    
                   </a>
                 </p>
               </div>
