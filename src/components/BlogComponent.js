@@ -5,7 +5,7 @@ const BlogComponent = () => {
       <div className="container">
         {/* Main Title */}
         <div className="neoh_fn_title">
-          <h3 className="fn_title">Media</h3>
+          <h3 className="fn_title">Media & Events</h3>
           <div className="line">
             <span />
           </div>
@@ -18,11 +18,11 @@ const BlogComponent = () => {
               <div className="item">
                 <img src="img/blog/1.jpg" alt="" className="moving_img" />
                 <p className="fn_date">
-                  <span>June 01, 2022</span>
+                  <span>October 15, 2023</span>
                 </p>
                 <h3 className="fn_title">
                   <Link href="/blog-single">
-                    Neohs NFT Goes Public In Nod To Crypto Adoption
+                    Which Future?
                   </Link>
                 </h3>
                 <p className="fn_desc">
@@ -32,7 +32,7 @@ const BlogComponent = () => {
                 <p className="fn_read">
                   <Link href="/blog-single">
                     <a className="neoh_fn_button only_text">
-                      <span className="text">Read More</span>
+                      <span className="text">Lısten on spotify</span>
                     </a>
                   </Link>
                 </p>
@@ -42,21 +42,20 @@ const BlogComponent = () => {
               <div className="item">
                 <img src="img/blog/2.jpg" alt="" className="moving_img" />
                 <p className="fn_date">
-                  <span>May 25, 2022</span>
+                  <span>October 25, 2023</span>
                 </p>
                 <h3 className="fn_title">
                   <Link href="/blog-single">
-                    Bankman-Fried Would Like to Talk With Musk About Twitter
+                     DAOs in Action; Building Sustainable Ecosystems" Podcast Series:
                   </Link>
                 </h3>
                 <p className="fn_desc">
-                  Morbi non dignissim erat, a blandit felis nec lorem vel orci
-                  varius congue ut vitae est.
+                Get ready to unravel the potential of DAOs, witness their impact on decision-making, and discover strategies for building sustainable ecosystems. Stay tuned for thought-provoking insights and real-world examples that showcase how technology and collaboration are shaping an innovative future.
                 </p>
                 <p className="fn_read">
                   <Link href="/blog-single">
                     <a className="neoh_fn_button only_text">
-                      <span className="text">Read More</span>
+                      <span className="text">lısten on spotıfy</span>
                     </a>
                   </Link>
                 </p>
