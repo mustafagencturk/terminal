@@ -82,7 +82,7 @@ const Header = () => {
         <div className={`nav_footer ${toggle ? "ready" : ""}`}>
           <div className="nf_left">
             <p>
-              Copyright 2023 - Designed &amp; Developed by{" Termiverce  "}
+              Copyright 2023 - Designed &amp; Developed by{" Termiverce "}
               <a
                 href="#"
                 target="_blank" rel="noreferrer"

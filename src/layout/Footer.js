@@ -13,9 +13,7 @@ const Footer = () => {
                 </div>
                 <h3 className="fn_title">Join Now For Early Access</h3>
                 <p className="fn_desc">
-                  Morbi non dignissim erat, a blandit felis nec lorem vel orci
-                  varius congue ut vitae est. Nam quis tempus nisl. Fusce
-                  posuere nibh a mi molestie, sit amet ornare
+                  
                 </p>
               </div>
               <div className="subscribe_form">
@@ -38,28 +36,42 @@ const Footer = () => {
               <div className="neoh_fn_social_list">
                 <ul>
                   <li>
-                    <a href="#">
+                    <a href="https://twitter.com/terminaldao/">
                       <i className="fn-icon-twitter" />
                     </a>
                   </li>
                   <li>
-                    <a href="#">
-                      <i className="fn-icon-facebook" />
+                    <a href="https://github.com/terminaldao/">
+                      <i className="fn-icon-github" />
                     </a>
                   </li>
                   <li>
-                    <a href="#">
+                    <a href="https://whatsapp.com/channel/0029Va6XwO08qJ00lhnk5K2z">
+                      <i className="fn-icon-whatsapp" />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.instagram.com/terminaldao/">
                       <i className="fn-icon-instagram" />
                     </a>
                   </li>
-                  <li>
-                    <a href="#">
-                      <i className="fn-icon-pinterest" />
+                   <li>
+                    <a href="https://t.me/terminal_dao">
+                      <i className="fn-icon-telegram" />
                     </a>
                   </li>
                   <li>
-                    <a href="#">
-                      <i className="fn-icon-behance" />
+                    <a href="https://twitter.com/terminaldao/">
+                            <span className="icon">
+                          <img src="svg/discord-footer.png" alt="" />
+                        </span>
+                        <span className="text"></span>
+                    </a>
+                  </li>
+              
+                  <li>
+                    <a href="https://www.linkedin.com/company/terminaldao/">
+                      <i className="fn-icon-linkedin" />
                     </a>
                   </li>
                 </ul>
