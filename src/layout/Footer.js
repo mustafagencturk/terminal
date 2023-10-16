@@ -89,7 +89,7 @@ const Footer = () => {
                   Copyright {new Date().getFullYear()} - Designed &amp;
                   Developed by{" TerminalDAO "}
                   <a
-                    Termiverce
+                    Termiverse
                   >
                     
                   </a>
