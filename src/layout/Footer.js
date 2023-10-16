@@ -61,9 +61,9 @@ const Footer = () => {
                     </a>
                   </li>
                   <li>
-                    <a href="https://twitter.com/terminaldao/">
+                    <a href="https://discord.com/">
                             <span className="icon">
-                          <img src="svg/discord-footer.png" alt="" />
+                          <img src="svg/discord-logo.svg" alt="" />
                         </span>
                         <span className="text"></span>
                     </a>

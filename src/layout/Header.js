@@ -39,9 +39,6 @@ const Header = () => {
                   className="sub-menu"
                   style={{ display: homeToggle ? "block" : "none" }}
                 >
-                  <li>
-                    <Link href="/">Home</Link>
-                  </li>
                 </ul>
               </li>
               <li className="menu-item">
@@ -82,7 +79,7 @@ const Header = () => {
         <div className={`nav_footer ${toggle ? "ready" : ""}`}>
           <div className="nf_left">
             <p>
-              Copyright 2023 - Designed &amp; Developed by{" Termiverce "}
+              Copyright 2023 - Designed &amp; Developed by{" Termiverse "}
               <a
                 href="#"
                 target="_blank" rel="noreferrer"
@@ -95,28 +92,23 @@ const Header = () => {
             <div className="neoh_fn_social_list">
               <ul>
                 <li>
-                  <a href="twitter.com/terminaldao">
+                  <a href="https://twitter.com/terminaldao">
                     <i className="fn-icon-twitter" />
                   </a>
                 </li>
                 <li>
-                  <a href="">
-                    <i className="fn-icon-facebook" />
-                  </a>
-                </li>
-                <li>
-                  <a href="instagram.com/terminaldao">
+                  <a href="https://instagram.com/terminaldao">
                     <i className="fn-icon-instagram" />
                   </a>
                 </li>
                 <li>
-                  <a href="linkedin.com/terminaldao">
+                  <a href="https://linkedin.com/terminaldao">
                     <i className="fn-icon-linkedin" />
                   </a>
                 </li>
                 <li>
-                  <a href="#">
-                    <i className="fn-icon-behance" />
+                  <a href="https://t.me/terminal_dao">
+                      <i className="fn-icon-telegram" />
                   </a>
                 </li>
               </ul>
