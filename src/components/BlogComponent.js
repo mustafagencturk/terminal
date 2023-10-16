@@ -5,7 +5,7 @@ const BlogComponent = () => {
       <div className="container">
         {/* Main Title */}
         <div className="neoh_fn_title">
-          <h3 className="fn_title">Media</h3>
+          <h3 className="fn_title">Media & Events</h3>
           <div className="line">
             <span />
           </div>
@@ -18,21 +18,20 @@ const BlogComponent = () => {
               <div className="item">
                 <img src="img/blog/1.jpg" alt="" className="moving_img" />
                 <p className="fn_date">
-                  <span>June 01, 2022</span>
+                  <span>October 15, 2023</span>
                 </p>
                 <h3 className="fn_title">
                   <Link href="/blog-single">
-                    Neohs NFT Goes Public In Nod To Crypto Adoption
+                  From Crisis to Innovation: 'Which Future' Podcast Shapes a Sustainable Future with Technology
                   </Link>
                 </h3>
                 <p className="fn_desc">
-                  Morbi non dignissim erat, a blandit felis nec lorem vel orci
-                  varius congue ut vitae est.
+                Welcome to 'Which Future' Dive into a compelling podcast series hosted by Begum Bitir, exploring the intersection of sustainability and exponential technologies.  Discover how industries embrace innovative solutions to combat the looming climate crisis and shape a brighter, more eco-conscious future.
                 </p>
                 <p className="fn_read">
                   <Link href="/blog-single">
                     <a className="neoh_fn_button only_text">
-                      <span className="text">Read More</span>
+                      <span className="text">Lısten on spotify</span>
                     </a>
                   </Link>
                 </p>
@@ -42,21 +41,20 @@ const BlogComponent = () => {
               <div className="item">
                 <img src="img/blog/2.jpg" alt="" className="moving_img" />
                 <p className="fn_date">
-                  <span>May 25, 2022</span>
+                  <span>October 25, 2023</span>
                 </p>
                 <h3 className="fn_title">
                   <Link href="/blog-single">
-                    Bankman-Fried Would Like to Talk With Musk About Twitter
+                     DAOs in Action; Building Sustainable Ecosystems" Podcast Series:
                   </Link>
                 </h3>
                 <p className="fn_desc">
-                  Morbi non dignissim erat, a blandit felis nec lorem vel orci
-                  varius congue ut vitae est.
+                Get ready to unravel the potential of DAOs, witness their impact on decision-making, and discover strategies for building sustainable ecosystems. Stay tuned for thought-provoking insights and real-world examples that showcase how technology and collaboration are shaping an innovative future.
                 </p>
                 <p className="fn_read">
                   <Link href="/blog-single">
                     <a className="neoh_fn_button only_text">
-                      <span className="text">Read More</span>
+                      <span className="text">lısten on spotıfy</span>
                     </a>
                   </Link>
                 </p>
@@ -64,23 +62,22 @@ const BlogComponent = () => {
             </li>
             <li>
               <div className="item">
-                <img src="img/blog/3.jpg" alt="" className="moving_img" />
+                <img src="img/blog/3.png" alt="" className="moving_img" />
                 <p className="fn_date">
-                  <span>May 13, 2022</span>
+                  <span>Agust 19, 2024</span>
                 </p>
                 <h3 className="fn_title">
                   <Link href="/blog-single">
-                    Crypto-Focused Silvergate Jumps on Blowout Earnings Report
+                  Empowering Change: Unveiling the Principles of Social Entrepreneurship
                   </Link>
                 </h3>
                 <p className="fn_desc">
-                  Morbi non dignissim erat, a blandit felis nec lorem vel orci
-                  varius congue ut vitae est.
+                Delve into the world of social entrepreneurship with our podcast as we unravel the core principles guiding impactful ventures. Join us to understand how innovative business models merge with social responsibility, paving the way for positive change and sustainable impact in communities worldwide. Let's uncover the secrets of driving a successful venture while making a difference in society.
                 </p>
                 <p className="fn_read">
                   <Link href="/blog-single">
                     <a className="neoh_fn_button only_text">
-                      <span className="text">Read More</span>
+                      <span className="text">lısten on spotify</span>
                     </a>
                   </Link>
                 </p>

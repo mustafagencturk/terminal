@@ -45,7 +45,7 @@ const AboutComponent = () => {
         {/* About Item #2 */}
         <div className="neoh_fn_about_item reverse">
           <div className="img_item">
-            <img src="img/hero/" alt="" />
+            <img src="img/hero/terminal-veri-2.jpg" alt="" />
           </div>
           <div className="content_item">
             <div className="neoh_fn_title" data-align="left">
