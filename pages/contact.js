@@ -1,97 +1,56 @@
+import AboutComponent from "../src/components/AboutComponent";
+import BlogComponent from "../src/components/BlogComponent";
+import Drops from "../src/components/Drops";
+import ServicesComponent from "../src/components/ServicesComponent";
+import WhyChooseUsComponent from "../src/components/WhyChooseUsComponent";
 import Layout from "../src/layout/Layout";
-import PageBanner from "../src/layout/PageBanner";
 
-const Contact = () => {
+const Index = () => {
   return (
-    <Layout pageName={"Contact"}>
-      <PageBanner pageName={"Contact"} />
-      <div className="neoh_fn_contact_page">
-        <div className="container">
-          <div className="mw_500">
-            <form
-              action="/"
-              method="post"
-              className="contact_form"
-              id="contact_form"
-              autoComplete="off"
-            >
-              <div className="input_list">
-                <ul>
-                  <li>
-                    <label htmlFor="name">Name</label>
-                    <input id="name" type="text" placeholder="Your Name" />
-                  </li>
-                  <li>
-                    <label htmlFor="email">Email</label>
-                    <input
-                      id="email"
-                      type="text"
-                      placeholder="youremail@mail.com"
-                    />
-                  </li>
-                  <li>
-                    <label htmlFor="subject">Subject</label>
-                    <input id="subject" type="text" />
-                  </li>
-                  <li>
-                    <label htmlFor="message">Message</label>
-                    <textarea id="message" defaultValue={""} />
-                  </li>
-                  <li>
-                    <a
-                      id="send_message"
-                      href="#"
-                      className="neoh_fn_button only_text"
-                    >
-                      <span className="text">Send Message</span>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-              <div
-                className="returnmessage"
-                data-success="Your message has been received, We will contact you soon."
-              />
-              <div className="empty_notice">
-                <span>Please Fill Required Fields</span>
-              </div>
-            </form>
-            <div className="desc_holder">
-              <p>
-                Duis eu lorem ut mauris pulvinar auctor. Maecenas et dapibus
-                orci, eleifend euismod justo. Quisque luctus turpis eu tristique
-                feugiat.
+    <Layout pageName={"Unite, Create, Innovate"}>
+      {/* Hero Header */}
+      <div className="neoh_fn_hero">
+        {/* Overlay (of hero header) */}
+        <div className="bg_overlay">
+          {/* Overlay Color */}
+          {/* !Overlay Color */}
+          {/* Overlay Image */}
+          <div className="bg_image" data-bg-img="img/hero/bg-logo-terminal.svg" />
+          {/* !Overlay Image */}
+        </div>
+        {/* Overlay (of hero header) */}
+        <div className="hero_content">
+          <div className="container">
+            <div className="content">
+              <h1 className="fn_title" title="Terminal">
+                
+              </h1>
+              <p className="fn_desc fn_animated_text">
+                
               </p>
-              <p>
-                Praesent ac magna feugiat, interdum lacus ac, interdum dui.
-                Pellentesque id quam quis enim malesuada rutrum. Orci varius
-                natoque penatibus et magnis dis parturient montes, nascetur
-                ridiculus mus.
-              </p>
-            </div>
-            <div className="info_list">
-              <ul>
-                <li>
-                  <p className="label">Address</p>
-                  <h3 className="value">69 Queen St, Melbourne Australia</h3>
-                </li>
-                <li>
-                  <p className="label">Phone</p>
-                  <h3 className="value">
-                    <a href="tel:+7068980751">(+706) 898-0751</a>
-                  </h3>
-                </li>
-                <li>
-                  <a href="mailto:example@domain.com" className="email">
-                    example@domain.com
-                  </a>
-                </li>
-              </ul>
             </div>
           </div>
+          <a
+            href="#about"
+            className="neoh_fn_down magic-hover magic-hover__square"
+          >
+          </a>
         </div>
       </div>
+      {/* !Hero Header */}
+      {/* About Section */}
+      <AboutComponent />
+      {/* !About Section */}
+      {/* Services Section */}
+      <ServicesComponent />
+      {/* !Services Section */}
+      {/* Drops */}
+      {/* Investor Section */}
+      <WhyChooseUsComponent />
+      {/* !Investor Section */}
+      {/* Blog Section */}
+      <BlogComponent />
     </Layout>
   );
 };
-export default Contact;
+export default Index;
