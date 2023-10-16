@@ -39,13 +39,16 @@ const Header = () => {
                   className="sub-menu"
                   style={{ display: homeToggle ? "block" : "none" }}
                 >
+                  <li>
+                    <Link href="/">Home</Link>
+                  </li>
                 </ul>
               </li>
               <li className="menu-item">
                 <Link href="/about">About</Link>
               </li>
               <li className="menu-item">
-                <Link href="/blog">Media & Events </Link>
+                <Link href="/blog">Media</Link>
               </li>
               <li className="menu-item">
                 <Link href="/contact">Contact</Link>
@@ -79,7 +82,7 @@ const Header = () => {
         <div className={`nav_footer ${toggle ? "ready" : ""}`}>
           <div className="nf_left">
             <p>
-              Copyright 2023 - Designed &amp; Developed by{" Termiverse "}
+              Copyright 2023 - Designed &amp; Developed by{" Termiverce  "}
               <a
                 href="#"
                 target="_blank" rel="noreferrer"
@@ -92,23 +95,28 @@ const Header = () => {
             <div className="neoh_fn_social_list">
               <ul>
                 <li>
-                  <a href="https://twitter.com/terminaldao">
+                  <a href="twitter.com/terminaldao">
                     <i className="fn-icon-twitter" />
                   </a>
                 </li>
                 <li>
-                  <a href="https://instagram.com/terminaldao">
+                  <a href="">
+                    <i className="fn-icon-facebook" />
+                  </a>
+                </li>
+                <li>
+                  <a href="instagram.com/terminaldao">
                     <i className="fn-icon-instagram" />
                   </a>
                 </li>
                 <li>
-                  <a href="https://linkedin.com/terminaldao">
+                  <a href="linkedin.com/terminaldao">
                     <i className="fn-icon-linkedin" />
                   </a>
                 </li>
                 <li>
-                  <a href="https://t.me/terminal_dao">
-                      <i className="fn-icon-telegram" />
+                  <a href="#">
+                    <i className="fn-icon-behance" />
                   </a>
                 </li>
               </ul>

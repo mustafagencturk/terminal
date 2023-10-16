@@ -16,7 +16,7 @@ const WhyChooseUsComponent = () => {
       <div className="container">
         {/* Main Title */}
         <div className="neoh_fn_title">
-          <h3 className="fn_title">Together With</h3>
+          <h3 className="fn_title">Partners</h3>
           <div className="line">
             <span />
           </div>
@@ -27,20 +27,62 @@ const WhyChooseUsComponent = () => {
           <ul>
             <li>
               <div className="item">
-                <img src="img/investors/1.jpg" alt="" />
-                <a href="https://www.su.org/" className="full_link" />
+                <img src="img/investors/1.png" alt="" />
+                <a href="#" className="full_link" />
               </div>
             </li>
             <li>
               <div className="item">
-                <img src="img/investors/2.jpg" alt="" />
-                <a href="https://www.culturedeclares.org" className="full_link" />
+                <img src="img/investors/2.png" alt="" />
+                <a href="#" className="full_link" />
               </div>
             </li>
             <li>
               <div className="item">
-                <img src="img/investors/3.jpg" alt="" />
-                <a href="https://www.cryptofemale.org" className="full_link" />
+                <img src="img/investors/3.png" alt="" />
+                <a href="#" className="full_link" />
+              </div>
+            </li>
+            <li>
+              <div className="item">
+                <img src="img/investors/4.png" alt="" />
+                <a href="#" className="full_link" />
+              </div>
+            </li>
+            <li>
+              <div className="item">
+                <img src="img/investors/5.png" alt="" />
+                <a href="#" className="full_link" />
+              </div>
+            </li>
+            <li>
+              <div className="item">
+                <img src="img/investors/6.png" alt="" />
+                <a href="#" className="full_link" />
+              </div>
+            </li>
+            <li>
+              <div className="item">
+                <img src="img/investors/7.png" alt="" />
+                <a href="#" className="full_link" />
+              </div>
+            </li>
+            <li>
+              <div className="item">
+                <img src="img/investors/8.png" alt="" />
+                <a href="#" className="full_link" />
+              </div>
+            </li>
+            <li>
+              <div className="item">
+                <img src="img/investors/9.png" alt="" />
+                <a href="#" className="full_link" />
+              </div>
+            </li>
+            <li>
+              <div className="item">
+                <img src="img/investors/10.png" alt="" />
+                <a href="#" className="full_link" />
               </div>
             </li>
           </ul>

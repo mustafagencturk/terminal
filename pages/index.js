@@ -7,7 +7,7 @@ import Layout from "../src/layout/Layout";
 
 const Index = () => {
   return (
-    <Layout pageName={"Unite, Create, Innovate"}>
+    <Layout pageName={"Home Static"}>
       {/* Hero Header */}
       <div className="neoh_fn_hero">
         {/* Overlay (of hero header) */}
@@ -34,6 +34,9 @@ const Index = () => {
             href="#about"
             className="neoh_fn_down magic-hover magic-hover__square"
           >
+            <span className="text">Scroll Down</span>
+            <span className="icon">
+            </span>
           </a>
         </div>
       </div>
@@ -44,7 +47,7 @@ const Index = () => {
       {/* Services Section */}
       <ServicesComponent />
       {/* !Services Section */}
-      {/* Drops */}
+      <Drops />
       {/* Investor Section */}
       <WhyChooseUsComponent />
       {/* !Investor Section */}

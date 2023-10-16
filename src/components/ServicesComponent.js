@@ -16,7 +16,7 @@ const ServicesComponent = () => {
       <div className="container">
         {/* Main Title */}
         <div className="neoh_fn_title">
-          <h3 className="fn_title">What Bring Us Together</h3>
+          <h3 className="fn_title">Why Choose Us?</h3>
           <div className="line">
             <span />
           </div>
@@ -28,12 +28,14 @@ const ServicesComponent = () => {
             <li>
               <div className="item">
                 <div className="item_num">
-                  <span> &gt;_ </span>
+                  <span>01</span>
                 </div>
                 <div className="item_content">
-                  <h3 className="fn_title">Interdisciplinary Collaboration through Innovation</h3>
+                  <h3 className="fn_title">Termiverce</h3>
                   <p className="fn_desc fn_animated_text">
-                  TerminalDAO encourages innovation through interdisciplinary collaboration among artists, designers, architects, and software developers. Bringing industry professionals together to shape a sustainable future.
+                    A collection of 5,000 unique NEOHs built to go beyond the
+                    digital space that will unlock numerous benefits for our
+                    community.
                   </p>
                 </div>
               </div>
@@ -41,12 +43,14 @@ const ServicesComponent = () => {
             <li>
               <div className="item">
                 <div className="item_num">
-                  <span> &gt;_ </span>
+                  <span>02</span>
                 </div>
                 <div className="item_content">
-                  <h3 className="fn_title">Community Building and Social Impact</h3>
+                  <h3 className="fn_title">High Quality</h3>
                   <p className="fn_desc fn_animated_text">
-                  TerminalDAO is a digital hub that fosters community among artists and creators. Explore the collective efforts made by TerminalDAO members to drive social impact, awareness of pressing issues like the climate crisis, and advocate for positive change through artistic expression and collaboration. Proudly, we collaborate with 'Culture Declares,' a collective initiative uniting individuals, organizations, and communities in the cultural sector to declare a climate and ecological emergency.
+                    The NEOH collection includes dozens of rare heads, costumes,
+                    and colorways of the artists palette. They are drawn with
+                    great care.
                   </p>
                 </div>
               </div>
@@ -54,12 +58,14 @@ const ServicesComponent = () => {
             <li>
               <div className="item">
                 <div className="item_num">
-                  <span> &gt;_ </span>
+                  <span>03</span>
                 </div>
                 <div className="item_content">
-                  <h3 className="fn_title">Advancing Sustainable Innovation and Exponential Technologies</h3>
+                  <h3 className="fn_title">Top Resource</h3>
                   <p className="fn_desc fn_animated_text">
-                  Through curated programs, workshops, and knowledge-sharing initiatives, TerminalDAO empowers professionals with the latest insights and skills, driving forward sustainable innovation within their respective domains.
+                    Tasty design resources made with care for each pixel.
+                    Tokens, NFTs, metaverse and game resources. Access
+                    additional drops.
                   </p>
                 </div>
               </div>
@@ -67,12 +73,14 @@ const ServicesComponent = () => {
             <li>
               <div className="item">
                 <div className="item_num">
-                  <span> &gt;_ </span>
+                  <span>04</span>
                 </div>
                 <div className="item_content">
-                  <h3 className="fn_title">Revolutionizes Conventional Work Methods</h3>
+                  <h3 className="fn_title">Big Community</h3>
                   <p className="fn_desc fn_animated_text">
-                  We are revolutionizing conventional business methods, fostering industry advancement through our community-driven agency, Termiverse. We provide implementation strategies for exponential technologies, enabling digital transformation and community growth. Our Dao members offer expert consultancy services, propelling innovation and change in various sectors.
+                    Be part of a community of neoh owners and create user
+                    generated items. Rent, advertise, lounch stores, create
+                    items.
                   </p>
                 </div>
               </div>
