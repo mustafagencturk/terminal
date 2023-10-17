@@ -16,7 +16,7 @@ const BlogComponent = () => {
           <ul>
             <li>
               <div className="item">
-                <img src="img/blog/begum.png" alt="" className="moving_img" />
+                <img src="img/blog/begum.svg" alt="" className="moving_img" />
                 <p className="fn_date">
                   <span>October 15, 2023</span>
                 </p>
@@ -40,7 +40,7 @@ const BlogComponent = () => {
             </li>
             <li>
               <div className="item">
-                <img src="img/blog/aybars.png" alt="" className="moving_img" />
+                <img src="img/blog/aybars.svg" alt="" className="moving_img" />
                 <p className="fn_date">
                   <span>October 25, 2023</span>
                 </p>
@@ -50,9 +50,9 @@ const BlogComponent = () => {
                   </Link>
                 </h3>
                 <p className="fn_desc">
-                Get ready to unravel the potential of DAOs, witness their impact on decision-making, 
-                and discover strategies for building sustainable ecosystems. Stay tuned for thought-provoking 
-                insights and real-world examples that showcase how technology and collaboration are shaping an innovative future.
+                  Get ready to unravel the potential of DAOs, witness their impact on decision-making, 
+                  and discover strategies for building sustainable ecosystems. Stay tuned for thought-provoking 
+                  insights and real-world examples that showcase how technology and collaboration are shaping an innovative future.
                 
                 </p>
                 <p className="fn_read">
@@ -66,7 +66,7 @@ const BlogComponent = () => {
             </li>
             <li>
               <div className="item">
-                <img src="img/blog/bilinmeyen.png" alt="" className="moving_img" />
+                <img src="img/blog/bilinmeyen.svg" alt="" className="moving_img" />
                 <p className="fn_date">
                   <span>May 13, 2022</span>
                 </p>
