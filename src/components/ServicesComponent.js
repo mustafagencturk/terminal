@@ -31,7 +31,7 @@ const ServicesComponent = () => {
                   <span> &gt;_ </span>
                 </div>
                 <div className="item_content">
-                  <h3 className="fn_title">All checks have failed</h3>
+                  <h3 className="fn_title">Interdisciplinary Collaboration through Innovation</h3>
                   <p className="fn_desc fn_animated_text">
                     TerminalDAO encourages innovation through interdisciplinary 
   collaboration among artists, designers, architects, and software developers. 
