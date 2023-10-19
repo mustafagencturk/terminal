@@ -22,7 +22,8 @@ const BlogComponent = () => {
                 </p>
                 <h3 className="fn_title">
                   <Link href="/blog-single">
-                    From Crisis to Innovation: 'Which Future' Podcast Shapes a Sustainable Future with Technology
+                  From Crisis to Innovation: 'Which Future' Podcast Shapes a 
+                  Sustainable Future with Technology
                   </Link>
                 </h3>
                 <p className="fn_desc">
