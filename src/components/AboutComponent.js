@@ -28,7 +28,7 @@ const AboutComponent = () => {
             </div>
             <div className="buttons">
               <a
-                href="https://discord.com/"
+                href="https://discord.gg/qfQ6dfmQv"
                 target="_blank"
                 rel="noreferrer"
                 className="neoh_fn_button"
@@ -66,7 +66,7 @@ const AboutComponent = () => {
               </p>
             </div>
             <div className="buttons">
-              <Link href="/about">
+              <Link href="https://twitter.com/terminaldao/">
                 <a className="neoh_fn_button only_text">
                   <span className="text">More About US</span>
                 </a>
