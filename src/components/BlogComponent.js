@@ -77,14 +77,13 @@ const BlogComponent = () => {
                   </Link>
                 </h3>
                 <p className="fn_desc">
-                Delve into the world of social entrepreneurship with our podcast as we unravel the core principles guiding impactful ventures.
-                Join us to understand how innovative business models merge with social responsibility, paving the way for positive change and sustainable impact in communities worldwide.
-                Let's uncover the secrets of driving a successful venture while making a difference in society.
+                Delve into the world of social entrepreneurship with our podcast as we unravel
+                the core principles guiding impactful ventures.
                 </p>
                 <p className="fn_read">
                   <Link href="/blog-single">
                     <a className="neoh_fn_button only_text">
-                      <span className="text">lısten on spotify</span>
+                      <span className="text">lısten on spotıfy</span>
                     </a>
                   </Link>
                 </p>
