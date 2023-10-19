@@ -48,7 +48,7 @@ const BlogComponent = () => {
                 </p>
                 <h3 className="fn_title">
                   <Link href="/blog-single">
-                    DAOs in Action; Building Sustainable Ecosystems" Podcast Series:
+                    DAOs in Action; &apos;Building Sustainable Ecosystems&apos; Podcast Series:
                   </Link>
                 </h3>
                 <p className="fn_desc">
@@ -59,7 +59,7 @@ const BlogComponent = () => {
                 <p className="fn_read">
                   <Link href="/blog-single">
                     <a className="neoh_fn_button only_text">
-                      <span className="text">Read More</span>
+                      <span className="text">lıstern on spotıfy</span>
                     </a>
                   </Link>
                 </p>
