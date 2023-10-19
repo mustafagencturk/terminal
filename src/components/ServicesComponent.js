@@ -49,12 +49,17 @@ const ServicesComponent = () => {
                 <div className="item_content">
                   <h3 className="fn_title">Community Building and Social Impact</h3>
                   <p className="fn_desc fn_animated_text">
-                  TerminalDAO is a digital hub that fosters community among artists and creators.
-Explore the collective efforts made by TerminalDAO members to drive social impact,
-awareness of pressing issues like the climate crisis, and advocate for positive change
-through artistic expression and collaboration. Proudly, we collaborate with 'Culture Declares,'
-a collective initiative uniting individuals, organizations, and communities in the cultural
-sector to declare a climate and ecological emergency.
+                    TerminalDAO is a digital hub that fosters community among artists 
+                    and creators.
+                    Explore the collective efforts made by TerminalDAO 
+                    members to drive social impact,
+                    awareness of pressing issues like the climate crisis, 
+                    and advocate for positive change
+                    through artistic expression and collaboration. Proudly, we 
+                    collaborate with 'Culture Declares,'
+                    a collective initiative uniting individuals, organizations, 
+                    and communities in the cultural
+                    sector to declare a climate and ecological emergency.
                   </p>
                 </div>
               </div>
