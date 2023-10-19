@@ -28,14 +28,15 @@ const ServicesComponent = () => {
             <li>
               <div className="item">
                 <div className="item_num">
-                  <span>01</span>
+                  <span> &gt;_ </span>
                 </div>
                 <div className="item_content">
                   <h3 className="fn_title">All checks have failed</h3>
                   <p className="fn_desc fn_animated_text">
-                    A collection of 5,000 unique NEOHs built to go beyond the
-                    digital space that will unlock numerous benefits for our
-                    community.
+                    TerminalDAO encourages innovation through interdisciplinary 
+  collaboration among artists, designers, architects, and software developers. 
+  Bringing industry professionals
+  together to shape a sustainable future.
                   </p>
                 </div>
               </div>
