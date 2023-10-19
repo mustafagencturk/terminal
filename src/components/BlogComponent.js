@@ -48,12 +48,13 @@ const BlogComponent = () => {
                 </p>
                 <h3 className="fn_title">
                   <Link href="/blog-single">
-                    Bankman-Fried Would Like to Talk With Musk About Twitter
+                    DAOs in Action; Building Sustainable Ecosystems" Podcast Series:
                   </Link>
                 </h3>
                 <p className="fn_desc">
-                  Morbi non dignissim erat, a blandit felis nec lorem vel orci
-                  varius congue ut vitae est.
+                Get ready to unravel the potential of DAOs, witness their impact on decision-making,
+                and discover strategies for building sustainable ecosystems. Stay tuned for thought-provoking
+                insights and real-world examples that showcase how technology and collaboration are shaping an innovative future.
                 </p>
                 <p className="fn_read">
                   <Link href="/blog-single">
