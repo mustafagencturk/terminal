@@ -53,9 +53,6 @@ const ServicesComponent = () => {
 Explore the collective efforts made by TerminalDAO members to drive
 social impact, awareness of pressing issues like the climate crisis,
 and advocate for positive change through artistic expression and collaboration.
-Proudly, we collaborate with 'Culture Declares,'a collective initiative
-uniting individuals, organizations, and communities in the cultural
-sector to declare a climate and ecological emergency.
                   </p>
                 </div>
               </div>
