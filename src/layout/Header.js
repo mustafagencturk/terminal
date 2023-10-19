@@ -57,16 +57,6 @@ const Header = () => {
           </div>
           <div className="nav_buttons">
             <a
-              href="https://opensea.io/"
-              className="neoh_fn_button"
-              target="_blank" rel="noreferrer"
-            >
-              <span className="icon">
-                <img src="svg/opensea.svg" alt="" className="fn__svg" />
-              </span>
-              <span className="text">OpenSea</span>
-            </a>
-            <a
               href="https://discord.com/"
               className="neoh_fn_button"
               target="_blank" rel="noreferrer"
@@ -82,7 +72,7 @@ const Header = () => {
         <div className={`nav_footer ${toggle ? "ready" : ""}`}>
           <div className="nf_left">
             <p>
-              Copyright 2023 - Designed &amp; Developed by{" Termiverce  "}
+              Copyright 2023 - Designed &amp; Developed by{" Termiverse "}
               <a
                 href="#"
                 target="_blank" rel="noreferrer"
