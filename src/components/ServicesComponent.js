@@ -1,13 +1,14 @@
+import Image from "next/image";
 const ServicesComponent = () => {
   return (
     <section id="services">
       {/* Dividers */}
-      <img
+      <image
         src="svg/divider.svg"
         alt=""
         className="fn__svg fn__divider top_divider"
       />
-      <img
+      <image
         src="svg/divider.svg"
         alt=""
         className="fn__svg fn__divider bottom_divider"
