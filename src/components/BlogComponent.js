@@ -26,13 +26,15 @@ const BlogComponent = () => {
                   </Link>
                 </h3>
                 <p className="fn_desc">
-                  Morbi non dignissim erat, a blandit felis nec lorem vel orci
-                  varius congue ut vitae est.
+                Welcome to &apos;Which Future&apos; Dive into a compelling podcast series hosted by Begum Bitir,
+                exploring the intersection of sustainability and exponential technologies. 
+                Discover how industries embrace innovative solutions to combat the looming
+                climate crisis and shape a brighter, more eco-conscious future.
                 </p>
                 <p className="fn_read">
                   <Link href="/blog-single">
                     <a className="neoh_fn_button only_text">
-                      <span className="text">Read More</span>
+                      <span className="text">lısten on spotıfy</span>
                     </a>
                   </Link>
                 </p>
