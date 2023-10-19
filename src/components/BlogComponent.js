@@ -22,7 +22,7 @@ const BlogComponent = () => {
                 </p>
                 <h3 className="fn_title">
                   <Link href="/blog-single">
-                    Neohs NFT Goes Public In Nod To Crypto Adoption
+                    From Crisis to Innovation: 'Which Future' Podcast Shapes a Sustainable Future with Technology
                   </Link>
                 </h3>
                 <p className="fn_desc">
