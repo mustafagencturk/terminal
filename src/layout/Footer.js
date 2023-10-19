@@ -11,7 +11,7 @@ const Footer = () => {
                 <div className="img">
                   <img src="img/footer-logo.png" alt="" />
                 </div>
-                <h3 className="fn_title">Join Now For Early Access</h3>
+                <h3 className="fn_title">Terminal Monthly Newsletter</h3>
                 <p className="fn_desc">
                   
                 </p>
@@ -98,7 +98,7 @@ const Footer = () => {
               <div className="fb_right">
                 <ul>
                   <li>
-                    <Link href="/roadmap">RoadMap</Link>
+                    <Link href="#">Termiverse</Link>
                   </li>
                   <li>
                     <a href="#">Cookies</a>
