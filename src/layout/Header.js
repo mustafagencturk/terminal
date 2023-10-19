@@ -27,7 +27,7 @@ const Header = () => {
             <ul>
               <li className="menu-item menu-item-has-children">
                 <a
-                  href="#"
+                  href="/Home"
                   onClick={(e) => {
                     e.preventDefault();
                     setHomeToggle(!homeToggle);
@@ -35,14 +35,6 @@ const Header = () => {
                 >
                   Home
                 </a>
-                <ul
-                  className="sub-menu"
-                  style={{ display: homeToggle ? "block" : "none" }}
-                >
-                  <li>
-                    <Link href="/">Home</Link>
-                  </li>
-                </ul>
               </li>
               <li className="menu-item">
                 <Link href="#">About</Link>
