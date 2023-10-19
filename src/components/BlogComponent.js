@@ -5,7 +5,7 @@ const BlogComponent = () => {
       <div className="container">
         {/* Main Title */}
         <div className="neoh_fn_title">
-          <h3 className="fn_title">Media</h3>
+          <h3 className="fn_title">Media & Events</h3>
           <div className="line">
             <span />
           </div>
@@ -18,16 +18,18 @@ const BlogComponent = () => {
               <div className="item">
                 <img src="img/blog/1.jpg" alt="" className="moving_img" />
                 <p className="fn_date">
-                  <span>June 01, 2022</span>
+                  <span>October 15, 2023</span>
                 </p>
                 <h3 className="fn_title">
                   <Link href="/blog-single">
-                    Neohs NFT Goes Public In Nod To Crypto Adoption
+                    From Crisis to Innovation: 'Which Future' Podcast Shapes a Sustainable Future with Technology
                   </Link>
                 </h3>
                 <p className="fn_desc">
-                  Morbi non dignissim erat, a blandit felis nec lorem vel orci
-                  varius congue ut vitae est.
+                  Welcome to 'Which Future' Dive into a compelling podcast series hosted by Begum Bitir, 
+                  exploring the intersection of sustainability and exponential technologies.
+                  Discover how industries embrace innovative solutions to combat the looming climate 
+                  crisis and shape a brighter, more eco-conscious future.
                 </p>
                 <p className="fn_read">
                   <Link href="/blog-single">
