@@ -1,14 +1,5 @@
 {
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
-  "/about": "pages/about.html",
-  "/api/hello": "pages/api/hello.js",
-  "/blog-single": "pages/blog-single.html",
-  "/contact": "pages/contact.html",
-  "/": "pages/index.html",
-  "/blog": "pages/blog.html",
-  "/roadmap-single": "pages/roadmap-single.html",
-  "/roadmap": "pages/roadmap.html",
-  "/_document": "pages/_document.js",
-  "/404": "pages/404.html"
+  "/_document": "pages/_document.js"
 }
