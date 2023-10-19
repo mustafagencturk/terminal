@@ -75,14 +75,15 @@ const ServicesComponent = () => {
             <li>
               <div className="item">
                 <div className="item_num">
-                  <span>04</span>
+                  <span> &gt;_ </span>
                 </div>
                 <div className="item_content">
-                  <h3 className="fn_title">Big Community</h3>
+                  <h3 className="fn_title">Revolutionizes Conventional Work Methods</h3>
                   <p className="fn_desc fn_animated_text">
-                    Be part of a community of neoh owners and create user
-                    generated items. Rent, advertise, lounch stores, create
-                    items.
+                  We are revolutionizing conventional business methods, fostering industry advancement
+through our community-driven agency, Termiverse. We provide implementation strategies
+for exponential technologies, enabling digital transformation and community growth.
+Our Dao members offer expert consultancy services, propelling innovation and change in various sectors.
                   </p>
                 </div>
               </div>
