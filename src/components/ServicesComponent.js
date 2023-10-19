@@ -60,14 +60,14 @@ const ServicesComponent = () => {
             <li>
               <div className="item">
                 <div className="item_num">
-                  <span>03</span>
+                  <span> &gt;_ </span>
                 </div>
                 <div className="item_content">
-                  <h3 className="fn_title">Top Resource</h3>
+                  <h3 className="fn_title">Advancing Sustainable Innovation and Exponential Technologies</h3>
                   <p className="fn_desc fn_animated_text">
-                    Tasty design resources made with care for each pixel.
-                    Tokens, NFTs, metaverse and game resources. Access
-                    additional drops.
+                    Through curated programs, workshops, and knowledge-sharing initiatives, 
+  TerminalDAO empowers professionals with the latest insights and skills, 
+  driving forward sustainable innovation within their respective domains.
                   </p>
                 </div>
               </div>
