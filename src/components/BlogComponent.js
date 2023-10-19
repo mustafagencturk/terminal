@@ -26,10 +26,7 @@ const BlogComponent = () => {
                   </Link>
                 </h3>
                 <p className="fn_desc">
-                  Welcome to 'Which Future' Dive into a compelling podcast series hosted by Begum Bitir, 
-                  exploring the intersection of sustainability and exponential technologies.
-                  Discover how industries embrace innovative solutions to combat the looming climate 
-                  crisis and shape a brighter, more eco-conscious future.
+                  
                 </p>
                 <p className="fn_read">
                   <Link href="/blog-single">
