@@ -84,7 +84,7 @@ const BlogComponent = () => {
                 <p className="fn_read">
                   <Link href="/blog-single">
                     <a className="neoh_fn_button only_text">
-                      <span className="text">lısten on spotıfy</span>
+                      <span className="text">lısten on spotify</span>
                     </a>
                   </Link>
                 </p>
