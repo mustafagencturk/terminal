@@ -18,7 +18,7 @@ const BlogComponent = () => {
               <div className="item">
                 <img src="img/blog/begum.svg" alt="" className="moving_img" />
                 <p className="fn_date">
-                  <span>October 15, 2023</span>
+                  <span>Nov 15, 2023</span>
                 </p>
                 <h3 className="fn_title">
                   <Link href="/blog-single">
@@ -44,7 +44,7 @@ const BlogComponent = () => {
               <div className="item">
                 <img src="img/blog/aybars.svg" alt="" className="moving_img" />
                 <p className="fn_date">
-                  <span>May 25, 2022</span>
+                  <span>May 25, 2023</span>
                 </p>
                 <h3 className="fn_title">
                   <Link href="/blog-single">
