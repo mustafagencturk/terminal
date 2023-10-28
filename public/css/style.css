@@ -42,7 +42,6 @@ body{
 	font-weight: 400;
 	color: var(--bc);
 	position: relative;
-	word-break: break-word;
 	background-color: var(--sbc);
 }
 .fn__svg{
