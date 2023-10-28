@@ -26,24 +26,18 @@ const Header = () => {
           <div className="nav_menu">
             <ul>
               <li className="menu-item menu-item-has-children">
-                <a
-                  href="/Home"
-                  onClick={(e) => {
-                    e.preventDefault();
-                    setHomeToggle(!homeToggle);
-                  }}
-                >
-                  Home
-                </a>
               </li>
               <li className="menu-item">
-                <Link href="#">About</Link>
+                <Link href="#">Home</Link>
               </li>
               <li className="menu-item">
-                <Link href="#">Media & Partners </Link>
+                <Link href="#about">About</Link>
               </li>
               <li className="menu-item">
-                <Link href="#">Contact</Link>
+                <Link href="#investor">Media & Partners </Link>
+              </li>
+              <li className="menu-item">
+                <Link href="#footer">Contact</Link>
               </li>
             </ul>
           </div>

@@ -34,6 +34,10 @@ const Index = () => {
             href="#about"
             className="neoh_fn_down magic-hover magic-hover__square"
           >
+            <span className="text">Scroll Down</span>
+            <span className="icon">
+              <img src="svg/right-arr.svg" alt="" className="fn__svg" />
+            </span>
           </a>
         </div>
       </div>
