@@ -41,7 +41,7 @@ const Footer = () => {
                     </a>
                   </li>
                   <li>
-                    <a href="https://github.com/terminaldao/">
+                    <a href="https://github.com/termiverse/">
                       <i className="fn-icon-github" />
                     </a>
                   </li>

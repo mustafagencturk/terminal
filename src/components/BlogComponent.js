@@ -72,7 +72,7 @@ const BlogComponent = () => {
                   <span>Agust 19, 2024</span>
                 </p>
                 <h3 className="fn_title">
-                  <Link href="/https://open.spotify.com/user/31wrbzcd6lgrt4avl3jnxjxsynfe?si=490fba0e908049a2&nd=1">
+                  <Link href="https://open.spotify.com/user/31wrbzcd6lgrt4avl3jnxjxsynfe?si=490fba0e908049a2&nd=1">
                     Empowering Change: Unveiling the Principles of Social Entrepreneurship
                   </Link>
                 </h3>
