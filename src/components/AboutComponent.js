@@ -24,7 +24,7 @@ const AboutComponent = () => {
               <p>
                 
               </p>
-			  
+              
             </div>
             <div className="buttons">
               <a
