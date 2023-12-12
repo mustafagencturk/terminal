@@ -34,6 +34,9 @@ const Header = () => {
                 <Link href="#about">About</Link>
               </li>
               <li className="menu-item">
+                <Link href="http://192.168.1.103:9684/">Portal </Link>
+              </li>
+              <li className="menu-item">
                 <Link href="#investor">Media & Partners </Link>
               </li>
               <li className="menu-item">

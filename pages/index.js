@@ -4,6 +4,7 @@ import Drops from "../src/components/Drops";
 import ServicesComponent from "../src/components/ServicesComponent";
 import WhyChooseUsComponent from "../src/components/WhyChooseUsComponent";
 import Layout from "../src/layout/Layout";
+import Portal from "../src/components/Portal";
 
 const Index = () => {
   return (
